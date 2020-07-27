@@ -1,0 +1,29 @@
+<head>
+
+	<title>Membership Form</title>
+     <link rel="shortcut icon" href="C:/Users/DR MRS TAGBO/Pictures/Pictures/val.jpg">
+
+     <meta charset="UTF-8">
+     <meta name="title" content="Forms">
+     <meta name="description" content="Tables">
+     <meta name="keywords" content="">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+	
+	<form action="formsubmit.html" method="post" name="my form">
+		<label>Username<span>*</span></label><br>
+		<input type="text" name="Username" required placeholder="" size="30"><br>
+
+		<label>Password<span>*</span></label><br>
+		<input type="password" name="password" title="Must contain min of 8 characters, at least 1 uppercase, 1 lowecase and 1 digit" required placeholder="Enter a password" size="30" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"><br>
+
+		<input type="submit" value="SUBMIT" name="submit">
+
+
+	</form>
+</body>
+</html>
+
